@@ -1,0 +1,65 @@
+  main {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+footer {
+    margin-top: 150px;
+}
+main > section:first-of-type {
+    display: flex;
+    justify-content: space-around;
+}
+main > section:first-of-type > div {
+    width: 18%;
+    height: 360px;
+    background-color: rgb(9, 174, 119);
+    text-align: center;
+}
+main > section:first-of-type > div img {
+    width: 100%;
+    height: 113%;
+    vertical-align:bottom ;
+}
+main > section:first-of-type > div h1 {
+    font-size: 1.2em;
+    margin: 0 0 0 0;
+
+}
+main > section:first-of-type > div a {
+    margin-top: 30px;
+    width: 100%;
+    height: 70%;
+    display: block;
+}
+main > section:first-of-type > div:not(:nth-of-type(4), :nth-of-type(5) ) h1 {
+    padding-bottom: 23.2px;
+}
+main > section:first-of-type > div:nth-of-type(4), main > section:first-of-type > div:nth-of-type(5) {
+    padding: 0 0 0 0;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#secondPart {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+#secondPart div {
+    background-color: rgb(102, 132, 89);
+    width: 95%;
+    height: 420px;
+    margin-right: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#secondPart img {
+    height:300px;
+    width: 100%;
+    margin-top: 120px;
+}
+#secondPart div:not(:first-of-type) {
+    margin-top: 200px;
+}

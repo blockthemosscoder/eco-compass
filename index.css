@@ -1,0 +1,252 @@
+/*First Section*/
+
+#firstSect h1:first-of-type {
+  font-size: 6vh;
+  margin: 0 0 0 0;
+}
+#firstSect {
+  margin-top: 20px;
+  margin-left: 2vw;
+  display: inline-block;
+  width: 60vw;
+}
+#seyMore {
+  border-radius: 10px;
+  background-color: #3e7245;
+  color: white;
+  border: none;
+  padding: 15px;
+}
+#seyMore:hover {
+  background-color: #36643d;
+  color: lightgray;
+}
+
+
+
+/*Land Of the Swaps*/
+#swapper {
+  width: 90%;
+  margin-left: 2vw;
+  height: 260px;
+  margin-top: 60px;
+  background-color: grey;
+}
+#swapper > * {
+  width: 50%;
+  height: 120%;
+}
+#swapper1 {
+  float:left;
+  background-color: rgb(72, 87, 60);} 
+#swapper2 {
+  float:right;
+  background-color: rgb(72, 87, 60);
+}
+#swapLeft,#swapper2 > button {
+  height: 100%;
+  width: 40px;
+  background-color:#536e4f;
+  border: none;
+  padding: 0 0 0 0;
+}
+#swapper1 > button:hover,#swapper2 > button:hover {
+  background-color: #47704c;
+}
+
+.ContentNumber1 > button {
+  bottom: 0px;
+}
+.fontChanged .ContentNumber1 > button {
+/*Montserrat*/
+  bottom: 0px;
+}
+.ContentNumber2 > #swapLeft{
+  bottom: 0px;
+}
+
+.ContentNumber3 > #swapLeft{
+  bottom: 00px;
+}
+#moreInfo {
+  bottom: 200px;
+  width: 120px;
+  left: 600px;
+  background-color: #1f5020;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  overflow: show;
+  z-index: 6;
+}
+#moreInfo:hover {
+  background-color: #1d471d;
+  color: lightgray;
+}
+#swapTextBox {
+  width: 80%;
+  height: 100%;
+}
+#swapper * {
+  margin: 0 0 0 0;
+  position: relative;
+  display: inline-block;
+}
+
+.ContentNumber1 h2 {
+  bottom: 120px;
+  left: 10px;
+}
+.ContentNumber1 p {
+  right: 0px;
+  left: 55px;
+  bottom: 240px;
+  z-index: 6;
+}
+#swapper2 button {
+  float: right;
+}
+.ContentNumber2 h2 {
+  bottom: 120px;
+  left: 10px;
+}
+.ContentNumber2 p { 
+  left: 55px;
+  bottom: 240px;
+  z-index: 6;
+}
+.ContentNumber3 h2 {
+  bottom: 120px;
+  left: 10px;
+}
+.ContentNumber3 p { 
+  left: 55px;
+  bottom: 240px;
+  z-index: 6;
+}
+.ContentNumber4 h2 {
+  bottom: 55px;
+  left: 10px;
+}
+.ContentNumber4 p { 
+  right:112px;
+  bottom: 20px;
+  z-index: 6;
+}
+#swapImage {
+  width: 70%;
+  height: 90%;
+  position: relative;
+  top: 10px;
+  left: 75px;
+
+}
+/* Fa Fa-SocialMedia*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  }
+
+.fa:hover {
+  opacity: 0.7;
+}
+  
+.fa-facebook {
+  background: rgb(5, 35, 16);
+  color: white;
+}
+  
+.fa-youtube {
+  background: rgb(5, 35, 16);
+  color: white;
+}
+
+#myModal img {
+  margin: 10vw;
+}
+
+
+@media screen and (max-width:1100px){
+  #moreInfo {
+    left: 400px;
+    bottom: 250px;
+  }
+}
+@media screen and (max-width:800px){
+  #swapper {
+   width: 95%;
+  }
+  #swapper1 p {
+   font-size: 0.9em;
+  }
+  #swapper2 img {
+   width: 70%;
+   left: 60px;
+  }
+  .ContentNumber2 h2 {
+   bottom: 100px;
+   left: 10px;
+   width: 270px;
+  }
+  .ContentNumber3 h2 {
+   bottom: 100px;
+   left: 10px;
+   width: 270px;
+  }
+  #moreInfo {
+   left: 300px;
+   bottom: 230px;
+  }
+ }
+
+
+ @media screen and (max-width:650px){
+
+  #swapper1 p {
+   font-size: 0.8em;
+   width: 270px;
+  
+  }
+  #swapper1 h2 {
+    font-size: 1.2em;
+  }
+  #swapper2 img {
+   width: 70%;
+   left: 45px;
+   right: 60px;
+  
+  }
+  .ContentNumber1 p {
+    bottom: 270px;
+  }
+  .ContentNumber1 h2 {
+    bottom: 130px;
+  }
+  .ContentNumber2 h2 {
+   bottom: 300px;
+   left: 60px;
+   width: 270px;
+  }
+  .ContentNumber2 p {
+    bottom: 300px;
+  }
+  .ContentNumber3 h2 {
+   bottom: 300px;
+   left: 60px;
+   width: 270px;
+  }
+  .ContentNumber3 p {
+    bottom: 290px;
+  }
+  #moreInfo {
+   left: 200px;
+   bottom: 270px;
+  }
+ }
+
+
+
+

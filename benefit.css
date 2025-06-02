@@ -1,0 +1,51 @@
+section {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+section > div {
+    display: inline-block;
+}
+section > div h1{
+    margin-left: 30px;
+}
+section > div p  {
+    margin-left: 40px;
+}
+section > div:first-of-type {
+    /* pros */
+    width: 70%;
+    background-color: darkgreen;
+    height: 300px;
+}
+section > div:nth-of-type(2) {
+    /* cons  */
+    margin-top: 20px;
+    width: 70%;
+    background-color: green;
+    height: 300px;
+    position: relative;
+    bottom: 327px; 
+}
+section > div:nth-of-type(3) {
+    /* images */
+    margin-left: 10px;
+    width: 28%;
+    background-color: grey;
+    height: 610px;
+    position: relative;
+    bottom: 305px;
+}
+section > div:nth-of-type(3) img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 360px;
+    /* border: solid black 5px; */
+    height:180px;
+}
+
+@media screen and (max-width: 650px){
+    #proudgay{
+        margin-top: 50px;
+        overflow: auto;
+    }
+}

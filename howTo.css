@@ -1,0 +1,123 @@
+
+section:first-of-type {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+footer {
+    margin-top: 200px;
+}
+
+#firstPart div {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+#firstPart * {
+    vertical-align: middle;
+}
+#firstPart h1 {
+    margin: 0 0 0 0;
+    margin-left: 20px;
+    width: 30em;
+    vertical-align: middle;
+}
+#firstPart p {
+    margin-left:200px;
+    margin-top: 25px;
+    position: absolute;
+    bottom: 520px;
+}
+hr {
+    width: 95%;
+    margin: auto;
+}
+#secondPart {
+    margin: 0 0 0 0;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+#secondPart div{
+    margin-right: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+#secondPart h1 {
+    margin: 0 0 0 0;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 30em;
+    text-align: end;
+    margin-bottom: 40px;
+}
+#secondPart p {
+    margin-top: 125px;
+    margin-right: 240px;
+    position: absolute;
+    bottom: 340px;
+    text-align: end;
+}
+#thirdPart {
+    margin: 0 0 0 0;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+#thirdPart div {
+    margin-top: 25px;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    
+}
+#thirdPart * {
+    vertical-align: middle;
+}
+#thirdPart h1 {
+    margin: 0 0 0 0;
+    margin-left: 20px;
+    width: 30em;
+    vertical-align: middle;
+}
+#thirdPart p {
+    margin-left: 200px;
+    margin-top: 25px;
+    position: absolute;
+    bottom: 170px;
+}
+#fourthPart {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;   
+    /* background-color: rgb(31, 70, 63); */
+    height: 400px;
+    justify-content: space-evenly;
+}
+#fourthPart p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#fourthPart div {
+    background-color: rgb(158, 146, 52);
+    border-right: rgb(31,70,63) solid 33px;
+    border-left: rgb(31,70,63) solid 33px;
+    border-top: rgb(31,70,63) solid 13px;
+    border-bottom: rgb(31,70,63) solid 13px;
+    width: 25%;
+    height: 130%;
+    text-align: center;
+}
+div > img {
+    width: 160px;
+    height: 120px;
+}
+._h3 {
+    background-color: rgb(31,70,63);
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}

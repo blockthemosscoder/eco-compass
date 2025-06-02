@@ -1,0 +1,388 @@
+/*Body*/
+body {
+    color: black;
+    background-color: rgb(171, 188, 137);
+    font-family: 'Raleway';
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  body * {
+    color: white;
+  }  
+  .fontChanged {
+    font-family: 'Montserrat';
+  }
+  header h1:first-of-type {
+    font-family: 'Montserrat';
+  }
+
+  .fontChanged header h1:first-of-type {
+    font-family: 'Raleway';
+  }
+    
+  
+  @font-face {
+  
+    font-family: 'Poppins';
+    src: url(assets/Poppins-Regular.ttf);
+    font-family: 'Montserrat';
+    src: url(../assets//Montserrat-VariableFont_wght.tff);
+  }
+  @font-face {
+    font-family: Raleway;
+    src: url(../assets/Raleway-VariableFont_wght.ttf);
+  }
+  
+  /*DarkMode*/
+
+
+  
+  .dark-mode {
+    background-color:#091406 ;
+    color: white;
+  }
+  .dark-mode * {
+    color: white;
+  }
+  .dark-mode .topnav{
+    background-color: #1f5020;
+  }
+  .dark-mode header {
+    border-bottom: white solid 3px;
+  }
+  
+  .dark-mode #sideBar #sbLinks {
+    border-top: white solid 3px;
+  }
+  
+  /*Topnav*/
+  .topnav {
+    background-color: #1f5020;
+    overflow: hidden;
+    float: right;
+    border-radius: 10px;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3vh 5vw;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+  }
+  .topNavLightmode {
+    display: none;
+  }
+  .topnav a:hover {
+    background-color: #1b441b;
+    color: lightgrey;
+    border: black 1px solid;
+  }
+  header > * {
+    display: inline-block;
+    margin: 0 0 0 0;
+  }
+  header {
+    height: 9vh;
+    border-bottom: rgb(0, 0, 0) solid 3px;
+  }
+  header h1 {
+    vertical-align: top;
+    font-size: 5vh;
+    margin-left: 1vw;
+    position: relative;
+    top: 1vh;
+  }
+  header img:first-of-type {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  /*SideBar*/
+  #sideBar  {
+    float: left;
+    height: 100vh;
+    position: fixed;
+    width: 6vw;
+    overflow: hidden;
+  }
+  #sideBar *{
+    overflow: hidden;
+    margin-left: 5px;
+  }
+  #sideBar button {
+    border-radius: 100px;
+    background-color: #1f5020;
+    width: 4.5vw;
+    height: 4.5vw;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 10px ;
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+  #sideBar button:hover {
+    background-color: #1a441b;
+    color: lightgray;
+  }
+  #sideBar hr {
+    width: 3px;
+    height: 100%;
+  }
+  #sideBar #sbLinks {
+    border-top: rgb(0, 0, 0) solid 2px;
+    margin-top: 30px
+  }
+  
+  
+  
+  /* Fa fa-navbar*/
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+    
+  .fa-facebook {
+    background: rgb(5, 35, 16);
+    color: white;
+  }
+    
+  .fa-youtube {
+    background: rgb(5, 35, 16);
+    color: white;
+  }
+  footer {
+
+    text-align: center;
+    width: 100%;
+    margin-top:150px;
+    margin-bottom: 0;
+    margin-left: 0;
+
+  }
+  .dark-mode footer #footerInfo{
+    padding: 10px;
+    background-color: rgb(13, 46, 23);
+  }
+  footer #footerInfo {
+    background-color: #307a31;
+    padding: 10px;
+    /* the color property is useless */
+    
+  }
+  #miscButtons {
+    margin: auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  #miscButtons * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #miscButtons button {
+    height: 80px;
+    width: 80px;
+    background-color: #1f5020;
+    color: rgb(255, 255, 255);
+    border-radius: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    font-size: 11px;
+      font-family: 'Montserrat';
+  }
+
+  .fontChanged footer #miscButtons button{
+    font-family: 'Raleway';
+  }
+
+  #miscButtons button:hover {
+    background-color: #244424;
+    opacity: 0.9;
+  }
+#miscButtons a {
+  text-decoration: none;
+}
+#miscButtons a:first-of-type {
+  margin-left: 60px;
+}
+
+/* Modal for responsiveness */
+    .modal {
+      display: none;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%; 
+      overflow: auto;
+
+      background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+      z-index: 999;
+    }
+    .modal, .modal * {
+      transition: all 0.5s;
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+      background-image: linear-gradient(rgb(45, 81, 58), rgb(82, 153, 109));
+      margin: 15% auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%; /* Could be more or less, depending on screen size */
+      height: 90%;
+      color: black;
+      animation: fadeIn 0.5s;
+    }
+    .modal-content {
+      animation: fadeIn 0.5s;
+
+    }
+    .modal-content img {
+        width: 300px;
+        height: 300px;
+        animation: fadeIn 0.5s;
+        animation: rotatePhone 2s infinite;
+        transform: rotate(25deg);
+        margin: 30vw;
+       
+
+    }
+    .modal-content h1 {
+        color: white;
+        text-align: center;
+        margin-top: 40px;
+        animation: fadeIn 0.5s;
+
+    }
+    
+    @keyframes rotatePhone {
+        0% {
+            transform: rotate(25deg);
+        }
+        20% {
+            transform: rotate(25deg);
+        }
+        60% {
+            transform: rotate(-65deg);
+        }
+        100% {
+            transform: rotate(-65deg);
+        }
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    @keyframes fadeOut {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+      }
+      
+    }
+    
+    /* The Close Button */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,.close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  
+  /*Media Queries*/
+  @media screen and (max-width: 1500px) {
+    .topnav a {
+      padding: 3vh 5vw ;
+    }
+    header {
+      height: 9vh;
+    }
+  
+  }
+  
+  @media screen and (max-width: 1100px) {
+
+    header {
+      height: 60px;
+    }
+    header img:first-of-type {
+      width: 60px;
+      height: 60px;
+    }
+  
+  }
+  @media screen and (max-width:1024px) {
+    .topnav a {
+      padding: 3.8vh 4.5vw;
+    }
+    .topnav {
+      margin-top: -10px;
+    }
+  }
+  @media screen and (max-width:800px) {
+    .topnav a {
+      padding: 6vh 4.5vw;
+    }
+  }
+  @media screen and (max-width: 500px) {
+  
+    header {
+      border-bottom: none;
+    }
+    .topnav a {
+      padding: 3vh 8vw;
+    }
+    header .topnav {
+      margin: auto;
+      margin-top: 10px;
+    }
+    footer {
+      width: 105%;
+    }
+    #miscButtons > * {
+      width: 75px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    #miscButtons a:first-of-type {
+      margin-left: 30px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  

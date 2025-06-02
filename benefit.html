@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Compass - Benefits</title>
+    <link rel="stylesheet" href="../scripts/template.css">
+    <link rel="stylesheet" href="../scripts/benefit.css">
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="dark-mode">
+   
+    
+
+<header>
+
+      <a href="../index.html">
+         <img src="../assets/logo.png" alt="Logo">
+     </a>
+      <h1 id="firstH1">
+         Eco-Compass
+      </h1>
+
+    <div class="topnav" id="myTopnav">
+        <a href="linker.html">Information</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <button onclick="darkPersonMode()" id="lightModeButton" class="topNavLightmode">Lightmode</button>
+      </div>    
+</header>
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <h1 id="modal-text">Rotate Device</h1>
+      <img src="../assets/Rotate Phone 1.png" id="modal-img">
+    </div>
+  
+  </div>
+  
+  
+  
+  <script src="../scripts/index.js"></script>
+  <script>
+  var modal = document.getElementById("myModal");
+  var modalVis = document.getElementsByClassName("modal-content")[0];
+  var modalImg = document.getElementById("modal-img");
+  var modalText = document.getElementById("modal-text");
+
+  function checkPortrait() {
+    if (window.matchMedia("(orientation: portrait)").matches) {
+      modal.style.display = "block";
+  } 
+    else if (window.matchMedia("(orientation: landscape)").matches){
+        modal.style.display = "none";
+
+        
+      }
+  }
+  setInterval("checkPortrait()", 100);
+  </script>
+<script src="../scripts/index.js"></script>
+
+<section>
+    <div>
+        <h1>Pros</h1>
+        <p>
+            Benefits of eco-friendly living can be divided into benefits we get and environmental benefits. First of all, eco-friendly living benefits us with reduced your energy usage, health benefits, reduced exposure to toxins, less maintainess costs, improved air quality and using eco-friendly landscapes for you properties can increase its value. Secondly, eco-friendly living is designed to reduce our environmental impacts and benefit it. So, here are benefits of eco-friendly living to the environment, eco-system and the wildlife.
+            <ul>
+                <li>
+                    Saves water and energy
+                </li>
+                <li>
+                    Reduce carbon footprint and waste
+                </li>
+                <li>
+                    protect biodiversity, eco-system and wildlife
+                </li>
+                <li>
+                    Reduce pollutions
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div id="proudgay">
+        <h1>Cons</h1>
+        <p>Nothing is perfect, so even something designed to do goods has flaws too. </p>
+            
+            <ul>
+                <li>
+                    Takes lots of time adapt and change
+                </li>
+                <li>
+                    Has high materials costs 
+                </li>
+                <li>
+                    Need an alternative to specific items
+                </li>
+                <li>
+                    Disruption of Traditional lifestyle
+                </li>
+                <li>
+                    Need to adapt to new things and utilities
+                </li>
+            </ul>
+          <p>  Even though it have these dissadvantages, it is still a very favored lifestyle. And the best ways to reduce pollutions and your environmental impacts.
+        </p>
+    </div>
+    <div>
+        <img src="../assets/download (5).jpg" alt="">
+        <img src="../assets/This may contain_ green plant growing on top of stacks of coins with graph going up in the background.png" alt="">
+        <img src="../assets/download (4).jpg" alt="">
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<footer id="myfeet">
+    <div id="miscButtons">
+        <!-- <div id="miscEffects"> -->
+            <button onclick="darkPersonMode()" id="lightModeButton">Lightmode</button>
+            <button onclick="swapFont()">Change Font!</button>
+        <!-- </div>
+        <div id="miscLinks"> -->
+            <a href=""><button>Read The Code!</button></a>
+            <a href=""><button>Citations</button></a>
+        <!-- </div> -->
+    </div>
+    <div id="footerInfo" title="hail hitlar">
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-youtube"></a>
+        <a href="https://www.youtube.com/watch?v=KU7VZRgjYaE&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=44" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/watch?v=EKxFNYEI_HY" class="fa fa-reddit"></a> 
+        <p title="we usually make games">© Copyright 2025 The Council. All rights reserved. Developed by The Council. </p>
+    </div>
+</footer>
+</body>
+</html>

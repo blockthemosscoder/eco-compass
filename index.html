@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Compass - Homepage</title>
+    <link rel="stylesheet" href="scripts/template.css">
+    <link rel="stylesheet" href="scripts/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="dark-mode">
+   
+    
+
+<header>
+    <a href="">
+        <img src="assets/logo.png" alt="Logo">
+    </a>
+    <h1>
+        Eco-Compass
+    </h1>
+    <div class="topnav" id="myTopnav">
+        <a href="scenes/linker.html">Information</a>
+        <a href="scenes/about.html">About</a>
+        <a href="scenes/projects.html">Projects</a>
+        <button onclick="darkPersonMode()" id="lightModeButton" class="topNavLightmode">Lightmode</button>
+      </div>    
+</header>
+<script src="scripts/index.js"></script>
+
+<div id="myModal" class="modal">
+
+    <!-- Modal content --> 
+    <div class="modal-content">
+      <h1 id="modal-text">Rotate Device</h1>
+      <img src="../assets/Rotate Phone 1.png" id="modal-img">
+    </div>
+  
+  </div>
+  
+  
+  
+  <script src="../scripts/index.js"></script>
+  <script>
+  var modal = document.getElementById("myModal");
+  var modalVis = document.getElementsByClassName("modal-content")[0];
+  var modalImg = document.getElementById("modal-img");
+  var modalText = document.getElementById("modal-text");
+
+  function checkPortrait() {
+    if (window.matchMedia("(orientation: portrait)").matches) {
+      modal.style.display = "block";
+  } 
+    else if (window.matchMedia("(orientation: landscape)").matches){
+        modal.style.display = "none";
+
+        
+      }
+  }
+  setInterval("checkPortrait()", 100);
+  </script>
+
+
+<section id="firstSect">
+    <!-- this is the title subtitle and summary text -->
+    <h1>WELCOME TO ECO-COMPASS!</h1>
+    <div class="typing"><span id="text">Our Mission</span>
+        <div class="cursor"></div>
+    </div> <!--Placeholder Text, will be changed with javascript-->
+    
+
+    <div id="summaryText">
+        <!--This is the block of text-->
+        <p>
+           <!--Mission, who we are, overveiw--> We, The Council, seek to make an eco-friendly lifestyle that is sustainable and 
+           reliable. It is a lifestyle that will not effect the environment and utilize clean, reliable and eco-friendly energies and materials. To achieve this, we have made this website to bring attention to said eco-friendly lifestyles, and we hope that you can also adapt these into your own and perhaps do other things to help our cause.</p>
+        <!--CAll to action-->
+        <space id="moreText" style="display: none;">
+        <a href="">
+            <button id="seyMore">Click to see more...</button>   
+        </a>
+    </div>
+
+    <div>
+        
+    </div>
+</section>
+
+
+<section id="swapper">
+
+        <div id="swapper1"> <button onclick="swapContentBackward()" id="swapLeft"><img src="assets/swapper_left.png" alt=""></button>
+                <h2 id="SwapHeader" class="swapGroup">exostence</h2>
+                <p id="textToSwap" class="swapGroup">existence</p>
+                <a href="scenes/howTo.html" id="moreInfoLink"><button id="moreInfo">Learn More!</button></a>
+            </div>
+        </div>
+        <div id="swapper2"> <button onclick="swapContentForward()"><img src="assets/swapper-right.png" alt=""></button> 
+            <img src="" alt="" id="swapImage" class="swapGroup">
+        </div>
+
+
+</section>
+<script src="scripts/swapContent.js"></script>
+
+
+<footer id="myfeet">
+    <div id="miscButtons">
+        <!-- <div id="miscEffects"> -->
+            <button onclick="darkPersonMode()" id="lightModeButton">Lightmode</button>
+            <button onclick="swapFont()">Change Font!</button>
+        <!-- </div>
+        <div id="miscLinks"> -->
+            <a href=""><button>Read The Code!</button></a>
+            <a href=""><button>Citations</button></a>
+        <!-- </div> -->
+    </div>
+    <div id="footerInfo">
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-youtube"></a>
+        <a href="https://www.youtube.com/watch?v=KU7VZRgjYaE&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=44" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/watch?v=EKxFNYEI_HY" class="fa fa-reddit"></a> 
+        <p title="we usually make games">© Copyright 2025 The Council. All rights reserved. Developed by The Council. </p>
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>

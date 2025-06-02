@@ -1,0 +1,119 @@
+    <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Compass - How To Live Sustainably</title>
+    <link rel="stylesheet" href="../scripts/template.css">
+    <link rel="stylesheet" href="../scripts/howTo.css">
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="dark-mode">
+<header>
+
+      <a href="../index.html">
+         <img src="../assets/logo.png" alt="Logo">
+     </a>
+      <h1 id="firstH1">
+         Eco-Compass
+      </h1>
+
+    <div class="topnav" id="myTopnav">
+        <a href="linker.html">Information</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <button onclick="darkPersonMode()" id="lightModeButton" class="topNavLightmode">Lightmode</button>
+      </div>    
+</header>
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <h1 id="modal-text">Rotate Device</h1>
+      <img src="../assets/Rotate Phone 1.png" id="modal-img">
+    </div>
+  
+  </div>
+  
+  
+  
+  <script src="../scripts/index.js"></script>
+  <script>
+  var modal = document.getElementById("myModal");
+  var modalVis = document.getElementsByClassName("modal-content")[0];
+  var modalImg = document.getElementById("modal-img");
+  var modalText = document.getElementById("modal-text");
+
+  function checkPortrait() {
+    if (window.matchMedia("(orientation: portrait)").matches) {
+      modal.style.display = "block";
+  } 
+    else if (window.matchMedia("(orientation: landscape)").matches){
+        modal.style.display = "none";
+
+        
+      }
+  }
+  setInterval("checkPortrait()", 100);
+  </script>
+<script src="../scripts/index.js"></script>
+
+<section>
+    <div id="firstPart">
+        <div>       
+            <img src="../assets/practicalSolution.jpg" alt="adad"> <!--Adad does not exist, he left for the milk-->
+            <h1>How to be Eco Friendly?</h1>
+        </div>
+
+        <p> Living green is making decisions that do less harm to the environment. Living green is not a trend, it is lifestyle to protect this planet for today and for our future. Living green is understanding how those all decisions or habits, everything from the little daily choices or habits to larger changes in lifestyle impact our planet. </p>
+
+</div>
+    <hr>
+    <div id="secondPart">
+        <div>
+            <img src="../assets/benefitsEcoFriendly.jpg" alt="amom">
+            <h1>The benefits of eco-friendly living?</h1>
+    </div>
+    <p>
+        Becoming environmentally friendly is easier than you think by making just small, ever
+        day adjustments. Use glass or metal water bottles and bags, use your own water bottle and again ditch the plastic bag. Turn off your lights in rooms you are not in and unplug items you ar not using. Don't waste food eat your left-overs! When possible shop secondhand. Try to walk or bike instead of driving for short distances. It's not about being perfect just stat with one thing and go from there.     </p>
+    </div>
+    <hr>
+    <div id="fourthPart">
+        <div>
+            <h1>Understanding Ecosystem Balance</h1>
+            <h3 class="_h3">The Web of Life</h3>
+            <p>Ecosystems thrive upon interdependence. When bees pollinate flowering plants, which produce oxygen, fungi decompose in a way that enriches soil, and predators help to balance species, the whole ecosystem functions. Disrupt one element of the ecosystem, such as removing trees that regulate rainfall through deforestation and the whole ecosystem wilts. Sustainable wiving is acknowledging these invisible connections and trying to make fewer decisions that disrupt ecosystems. For example, using fewer pesticides and harming pollinationg species or conserving wetlands that allow the natural pross of filtering water through soil.</p>
+        </div>
+        <div>
+            <h1>Sustainable Daily Practices </h1>
+            <h3 class="_h3">Reducing Your Footprint </h3>
+            <p>It's true that your daily choices have an impact on ecosystems. Using a reusable water bottle prevents marine life from being haarmed by plastic pollution. The same can be said regarding the use of energy effecient appliances, which prevent the emissions of power plants that acidify the ocean. Food waste add up too: decaying organic material in landfills releases methane - a greenhouse gas that is 25x worse than carbon dioxide. When food scraps are composted, the nutrients are returned to the soil and food scraps help to close the loop in nature's circular economy!</p>
+        </div>
+        <div>
+            <h1>Community Impact </h1>
+            <h3 class="_h3">Collective Action </h3>
+            <p>Neighborhood sustainablility builds ecological corridors for an entire region. You can picture it: streets filled with native landscaping to feed local birds, interconnected rain harvesting systems working together to recharge our groundwater. When communities collectively install solar panels or organize e-waste drives, they create scalable improvements. When we work together for beneficial purposes, we have a much greater impact on biodiversity than if we work in isolation.</p>
+        </div>
+    </div>
+</section>
+<footer>
+    <div id="miscButtons">
+
+            <button onclick="darkPersonMode()" id="lightModeButton">Lightmode</button>
+            <button onclick="swapFont()">Change Font!</button>
+            <a href=""><button>Read The Code!</button></a>
+            <a href=""><button>Citations</button></a>
+
+    </div>
+    <div id="footerInfo" title="hail hitlar">
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-youtube"></a>
+        <a href="https://www.youtube.com/watch?v=KU7VZRgjYaE&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=44" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/watch?v=EKxFNYEI_HY" class="fa fa-reddit"></a> 
+        <p title="we usually make games">© Copyright 2025 The Council. All rights reserved. Developed by The Council. </p>
+    </div>
+</footer>
+</body>
+</html>

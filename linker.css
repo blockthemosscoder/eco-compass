@@ -1,0 +1,263 @@
+
+footer {
+  margin-top: 200px;
+}
+
+#linker {
+  margin-left: 60px;
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 10px;
+  width: 95%;
+}
+div h3 {
+  margin: 0 0 0 0;
+  margin-bottom: 0px;
+  text-align: center;
+}
+/* FirstRow */
+#firstRow {
+  margin: auto;
+  width: 82vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+#firstRow * {
+  display: flexbox;
+}
+
+.infoBox {
+  width: 24vw;
+  height: 30vh;
+  float: left;
+  text-align: center;
+
+}
+.infoBox h3{
+  background-color: #264a26;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.infoBox img {
+  width: 22vw;
+  height: 25vh;
+  padding: 2vh 1vw 2vh 1vw;
+  padding-top: 25px;
+  background-color: #264a26;
+  display: inline-block;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px;
+}
+.infoBox p {
+  background-color: #264a26;
+  margin-bottom: 5px;
+  border-radius:5px;
+}
+.infoBox button {
+  margin-top: -30px;
+  border-radius: 5px;
+  border: none;
+  width: 15vw;
+}
+/* 
+#pg2 {
+  width: 24vw;
+  height: 30vh;
+  float: left;
+  text-align: center;
+
+}
+#pg2 h3 {
+  background-color: #264a26;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#pg2 img {
+  width: 22vw;
+  height: 25vh;
+  padding: 2vh 1vw 2vh 1vw;
+  padding-top: 5px;
+  background-color: #264a26;
+  display: inline-block;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px;
+}
+#pg2 p {
+  background-color: #264a26;
+  margin-bottom: 5px;
+  border-radius:5px;
+}
+#pg2 button {
+  margin-top: -30px;
+  border-radius: 5px;
+  border: none;
+  width: 15vw;
+}
+
+
+#pg3 {
+  width: 24vw;
+  height: 30vh;
+  float: left;
+  text-align: center;
+
+}
+#pg3 h3 {
+  background-color: #264a26;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#pg3 img {
+  width: 22vw;
+  height: 25vh;
+  padding: 2vh 1vw 2vh 1vw;
+  padding-top: 25px;
+  background-color: #264a26;
+  display: inline-block;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px;
+}
+#pg3 p {
+  background-color: #264a26;
+  margin-bottom: 5px;
+  border-radius:5px;
+}
+#pg3 button {
+  margin-top: -30px;
+  border-radius: 5px;
+  border: none;
+  width: 15vw;
+} */
+
+
+#flexdix {
+
+  display: flex;
+  justify-content: space-evenly;
+  width: 55vw;
+  margin: auto;
+  margin-top: 180px;
+  height: 30vh; 
+}
+
+/* #pg4 {
+  width: 24vw;
+  height: 30vh;
+  float: left;
+  text-align: center;
+
+}
+#pg4 h3 {
+  background-color: #264a26;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: -10;
+  padding-bottom: 19px;
+}
+#pg4 img {
+  width: 22vw;
+  height: 25vh;
+  padding: 2vh 1vw 2vh 1vw;
+  padding-top: 25px;
+  background-color: #264a26;
+  display: inline-block;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px;
+}
+#pg4 p {
+  background-color: #264a26;
+  margin-bottom: 5px;
+  border-radius:5px;
+}
+#pg4 button {
+  margin-top: -30px;
+  border-radius: 5px;
+  border: none;
+  width: 15vw;
+}
+
+#pg5 {
+  width: 24vw;
+  height: 30vh;
+  float: left;
+  text-align: center;
+}
+#pg5 h3 {
+  background-color: #264a26;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: -10;
+}
+#pg5 img {
+  width: 22vw;
+  height: 25vh;
+  padding: 2vh 1vw 2vh 1vw;
+  padding-top: 25px;
+  background-color: #264a26;
+  display: inline-block;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px;
+}
+#pg5 p {
+  background-color: #264a26;
+  margin-bottom: 5px;
+  border-radius:5px;
+}
+#pg5 button {
+  margin-top: -30px;
+  border-radius: 5px;
+  border: none;
+  width: 15vw;
+} */
+.moreInfoButton {
+  background-color: #2d4f2d;
+  color:white;
+}
+.moreInfoButton:hover {
+  background-color: #182e18;
+  opacity: 0.9;
+}
+.infoBox img {
+  height: 25vh
+}
+.infoBox p{
+  height: 60px;
+}
+.infoBox button {
+  background-color: #8cb95c;
+}
+.infoBox button:hover {
+  opacity: 0.9;
+}
+
+
+
+@media screen and (max-width:650px) {
+  #linker {
+    margin-left: 40px;
+  }
+  .infoBox h3 {
+    font-size: 0.8em;
+    width: 169px;
+    position: relative;
+    left: 0px;
+  }
+  .infoBox img {
+    width: 156px;
+    padding-top: 15px;
+  }
+  .infoBox p {
+    font-size: 0.7em;
+  }
+  #firstRow {
+    width: 90vw;
+    margin: 0 0 0 0;
+  }
+  #flexdix {
+    width: 80vw;
+    margin-top: 160px;
+  }
+}
+
+  

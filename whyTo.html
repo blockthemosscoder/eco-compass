@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Compass - Why Should we live sustainably?</title>
+    <link rel="stylesheet" href="../scripts/template.css">
+    <link rel="stylesheet" href="../scripts/whyTo.css">
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="dark-mode">
+   
+    
+
+<header>
+
+      <a href="../index.html">
+         <img src="../assets/logo.png" alt="Logo">
+     </a>
+      <h1 id="firstH1">
+         Eco-Compass
+      </h1>
+
+    <div class="topnav" id="myTopnav">
+        <a href="linker.html">Information</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <button onclick="darkPersonMode()" id="lightModeButton" class="topNavLightmode">Lightmode</button>
+      </div>    
+</header>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <h1 id="modal-text">Rotate Device</h1>
+    <img src="../assets/Rotate Phone 1.png" id="modal-img">
+  </div>
+
+</div>
+
+
+
+<script src="../scripts/index.js"></script>
+<script>
+var modal = document.getElementById("myModal");
+var modalVis = document.getElementsByClassName("modal-content")[0];
+var modalImg = document.getElementById("modal-img");
+var modalText = document.getElementById("modal-text");
+
+function checkPortrait() {
+  if (window.matchMedia("(orientation: portrait)").matches) {
+    modal.style.display = "block";
+} 
+  else if (window.matchMedia("(orientation: landscape)").matches){
+      modal.style.display = "none";
+
+      
+    }
+}
+setInterval("checkPortrait()", 100);
+</script>
+
+<section>
+    <div id="firstRow">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/ECO COMPASS.png" alt="Avatar" >
+              </div>
+              <div class="flip-card-back">
+                <h1>Goals of eco-friendly living</h1>
+                <p> Eco-friendly lifestyle focus on promoting sustainable habits minimizing environmental impacts. Its objectives are to reduce waste, conserve resources, protect biodiversity and eco system, </p>
+                </p>
+              </div>
+            </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="../assets/ECO COMPASS.png"alt="Avatar">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Why should we live sustainably?</h1>
+                    <p> Living sustainably is about being conscious on your actions. It has less maintainess, mental and physical well being, better air quality, and increased landprice, whcih are all your benefits. And it can save habitats and animals especially in polar regions, the wildlife, eco-system and make earth a better home to all living things. </p>
+                  </div>
+                </div>
+         </div>
+         <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/ECO COMPASS.png" alt="Avatar">
+              </div>
+              <div class="flip-card-back">
+                <h1>Reason to embrace it</h1>
+                <p>It is the most efficient way of stoping pollutions and problems around the world. Living sustainable means protecting wildlife, biodiversity, ecosystem, our home and protecting the nature.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div id="secondRow">
+      <div class="flip-card img-card" id="secondImgCard">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <!-- divs are empty becuz css adds design -->
+             <img src="../assets/100-Simple-Tips-To-Live-a-More-Sustainable-Lifestyle-e1566537932796.jpg" alt="">
+          </div>
+          <div class="flip-card-back">
+            <img src="../assets/images.jpg" alt="">
+          </div>
+        </div>
+    </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/ECO COMPASS.png" alt="Avatar">
+              </div>
+              <div class="flip-card-back">
+                <h1>How can we match our goals?</h1>
+                <p>We need to start taking real actions such as planting trees world wide, banning usage of gases in specific situations, and start living sustainably. We need to adopt a consciousness on our actions and starting caring our planets.</p>
+              </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/ECO COMPASS.png" alt="Avatar">
+              </div>
+              <div class="flip-card-back">
+                <h1>Why does planting trees matter?</h1>
+                <p> Trees are one of the main source of oxygen and can reduce global warming. So, planting more trees can reduce global warming and even stop it.</p>
+              </div>
+            </div>
+        </div>
+        <div class="flip-card img-card" id="secondImgCard">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <!-- divs are empty becuz css adds design -->
+                 <img src="../assets/download (3).jpg" alt="">
+              </div>
+              <div class="flip-card-back">
+                <img src="../assets/content1.jpg" alt="">
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="textPart">
+      <h1>Live sustainably and save the nature</h1>
+      <p> The carbon emission, plastic pollutions and global warming are ending lives of animals, destroying habitats and disrupting biodiversity. So in order to counter these and start saving the nature, live more sustainably, started reducing your emission and plastic usage, and start saving the wildlife.</p>
+    </div>
+    <div id="longBlackRod">
+      <img src="../assets/content1.jpg" alt="">
+      <img src="../assets/content3.png" alt="">
+      <img src="../assets/content2.jpg" alt="">
+    </div>
+
+
+
+</section>
+
+
+
+<script src="../scripts/index.js"></script>
+
+<footer id="myfeet">
+    <div id="miscButtons">
+        <!-- <div id="miscEffects"> -->
+            <button onclick="darkPersonMode()" id="lightModeButton">Lightmode</button>
+            <button onclick="swapFont()">Change Font!</button>
+        <!-- </div>
+        <div id="miscLinks"> -->
+            <a href=""><button>Read The Code!</button></a>
+            <a href=""><button>Citations</button></a>
+        <!-- </div> -->
+    </div>
+    <div id="footerInfo" title="hail hitlar">
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-youtube"></a>
+        <a href="https://www.youtube.com/watch?v=KU7VZRgjYaE&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=44" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/watch?v=EKxFNYEI_HY" class="fa fa-reddit"></a> 
+        <p title="we usually make games">© Copyright 2025 The Council. All rights reserved. Developed by The Council. </p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Compass - Homepage</title>
+    <link rel="stylesheet" media="" href="../scripts/template.css">
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="dark-mode">
+   
+    
+
+<header>
+
+      <a href="../index.html">
+         <img src="../assets/logo.png" alt="Logo">
+     </a>
+      <h1 id="firstH1">
+         Eco-Compass
+      </h1>
+
+    <div class="topnav" id="myTopnav">
+        <a href="linker.html">Information</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <button onclick="darkPersonMode()" id="lightModeButton" class="topNavLightmode">Lightmode</button>
+      </div>    
+</header>
+
+
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <h1 id="modal-text">Rotate Device</h1>
+      <img src="../assets/Rotate Phone 1.png" id="modal-img">
+    </div>
+  
+  </div>
+  
+  
+  
+  <script src="../scripts/index.js"></script>
+  <script>
+  var modal = document.getElementById("myModal");
+  var modalVis = document.getElementsByClassName("modal-content")[0];
+  var modalImg = document.getElementById("modal-img");
+  var modalText = document.getElementById("modal-text");
+
+  function checkPortrait() {
+    if (window.matchMedia("(orientation: portrait)").matches) {
+      modal.style.display = "block";
+  } 
+    else if (window.matchMedia("(orientation: landscape)").matches){
+        modal.style.display = "none";
+
+        
+      }
+  }
+  setInterval("checkPortrait()", 100);
+  </script>
+
+<footer id="myfeet">
+    <div id="miscButtons">
+        <!-- <div id="miscEffects"> -->
+            <button onclick="darkPersonMode()" id="lightModeButton">Lightmode</button>
+            <button onclick="swapFont()">Change Font!</button>
+        <!-- </div>
+        <div id="miscLinks"> -->
+            <a href=""><button>Read The Code!</button></a>
+            <a href=""><button>Citations</button></a>
+        <!-- </div> -->
+    </div>
+    <div id="footerInfo" title="hail hitlar">
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-youtube"></a>
+        <a href="https://www.youtube.com/watch?v=KU7VZRgjYaE&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=44" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/watch?v=EKxFNYEI_HY" class="fa fa-reddit"></a> 
+        <p title="we usually make games">© Copyright 2025 The Council. All rights reserved. Developed by The Council. </p>
+    </div>
+</footer>
+</body>
+</html>

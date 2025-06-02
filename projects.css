@@ -1,0 +1,25 @@
+main {
+    /* width: 89%; */
+    margin-left: 40px;
+    margin-top: 40px;
+}
+hr:first-of-type {
+    width: 50%;
+}
+main div:first-of-type {
+    margin-top: 40px;
+    width: 90%;
+    height: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+}
+main div:first-of-type img {
+    width:23%;
+    height: 100%;
+}
+video {
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 200px;
+}

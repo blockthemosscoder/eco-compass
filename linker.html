@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Info - Eco Compass</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../scripts/template.css">
+    <link rel="stylesheet" href="../scripts/linker.css">
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- shinewiraaung has 2 do this top part trust me trust trust on aung thant lins life ^^^-->
+ <!-- WHAT DO I DO -->
+
+<body>
+  <body class="dark-mode">
+    <header>
+        <a href="../index.html">
+            <img src="../assets/logo.png" alt="Logo">
+        </a>
+        <h1>
+            Eco-Compass
+        </h1>
+        <div class="topnav" id="myTopnav">
+            <a href="linker.html">Information</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <button onclick="darkPersonMode()" id="lightModeButton" class="topNavLightmode">Lightmode</button>
+          </div>    
+    </header>
+    <script src="../scripts/index.js"></script> <!--This is for the sideBar-->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <h1 id="modal-text">Rotate Device</h1>
+          <img src="../assets/Rotate Phone 1.png" id="modal-img">
+        </div>
+      
+      </div>
+      
+      
+      
+      <script src="../scripts/index.js"></script>
+      <script>
+      var modal = document.getElementById("myModal");
+      var modalVis = document.getElementsByClassName("modal-content")[0];
+      var modalImg = document.getElementById("modal-img");
+      var modalText = document.getElementById("modal-text");
+    
+      function checkPortrait() {
+        if (window.matchMedia("(orientation: portrait)").matches) {
+          modal.style.display = "block";
+      } 
+        else if (window.matchMedia("(orientation: landscape)").matches){
+            modal.style.display = "none";
+    
+            
+          }
+      }
+      setInterval("checkPortrait()", 100);
+      </script>
+
+<section id="linker">
+<div id="firstRow">
+  <div id="pg1" class="infoBox">
+    <h3 class="headerThree">What is eco-friendly lifestyle?</h3>
+    <img src="../assets/What Does Eco-Friendly Mean_ – Earth____.jpg" alt="pg1" title="bro its so hot that"> 
+  <p title="My pc overeheating"> Eco-friendly lifestyle is a way of living that...</p>
+  <a href="whatIs.html"><button class="moreInfoButton">See More</button>
+  </a>
+</div>
+
+
+<div id="pg2" class="infoBox">
+    <h3 class="omgsoskibidi">Why should we use eco-friendly lifestyle? </h3>
+<img src="../assets/Eco-friendly – A sustainable trend - RVM.jpg" alt="pg2" title="my framerate where did it go;">
+
+
+<p>
+    We are facing many problems that are causing multiple issues in our life and making earth hotter...
+</p>
+<a href="whyTo.html"><button class="moreInfoButton">See More</button>
+</a>
+</div>
+
+<div id="pg3" class="infoBox"> 
+    <h3 class="omgsoskibidi">Benefits of Eco-Friendly Living</h3>
+    <img src="../assets/TreeButSmol.png" alt="pg3">
+    <p>
+        Eco-friendly living brings several major advantages and enhancing our future...
+    </p>
+    <a href="benefit.html"><button class="moreInfoButton">See More</button>
+    </a>
+</div>
+</div>
+<div id="flexdix">
+    <div id="pg4" class="infoBox">
+        <h3 class="omgsoskibidi">How to live a eco-friendly lifestyle</h3>
+        <img src="../assets/Guide To Eco Friendly Living - BOXERGY.png" alt="pg4" title="The Nether, Ender Pearl..">
+       
+
+        <p>
+            Living eco-friendly is about having a...
+        </p>
+        <a href="howTo.html"><button class="moreInfoButton">See More</button>
+        </a>
+    </div>
+
+    <div id="pg5" class="infoBox">
+        <h3 class="omgsoskibidi"> Eco Friendly Replacements for household objects</h3>
+        <img src="../assets/Sustainable Lifestyle____.png" alt="pg5">
+            <p>
+                There are multiple alternatives to harmful materials in your house. For example, specific ...
+            </p>
+            <a href="howTwo.html" ><button class="moreInfoButton">See More</button>
+            </a>
+    </div>
+</div>
+</section>
+
+
+
+
+<footer id="myfeet">
+    <div id="miscButtons">
+        <!-- <div id="miscEffects"> -->
+            <button onclick="darkPersonMode()" id="lightModeButton">Lightmode</button>
+            <button onclick="swapFont()">Change Font!</button>
+        <!-- </div>
+        <div id="miscLinks"> -->
+            <a href=""><button>Read The Code!</button></a>
+            <a href=""><button>Citations</button></a>
+        <!-- </div> -->
+    </div>
+    <div id="footerInfo">
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-youtube"></a>
+        <a href="https://www.youtube.com/watch?v=KU7VZRgjYaE&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=44" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com/watch?v=KJHNdl3R8GM&list=PLsuCmTriuYXdOYZVaKyex5lIy3lT9K_PW&index=40&pp=iAQB8AUB0gcJCYQJAYcqIYzv" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/watch?v=EKxFNYEI_HY" class="fa fa-reddit"></a> 
+        <p title="we usually make games">© Copyright 2025 The Council. All rights reserved. Developed by The Council. </p>
+    </div>
+</footer>
+
+</body>
+</html>
